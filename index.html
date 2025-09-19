@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body">
 
-<h1>Hello!</h1>
-<p1>This is my portfolio WebSite</p1>
-<p1>There is my github: <a href="https://github.com/Patriks53121">My GitHub</a></p1>
+    <h1>Hello!</h1>
+    <div class="info">
+        <p>This is my portfolio WebSite</p>
+        <p>There is my github: <button class="button" onclick="window.location.href='https://github.com/Patriks53121' ">Go to GitHub</button></p> <!-- <a href="https://github.com/Patriks53121">My GitHub</a className="link"> -->
+    </div>
+    <div>
+        <h2>My picture:</h2>
+        <img src="mc.jpg" alt="My picture" class="image">
+    </div>
+
+    <button class="button" onclick="runScript()">Click me!</button>
+
+<script src="app.js"></script>
 </body>
 </html>
